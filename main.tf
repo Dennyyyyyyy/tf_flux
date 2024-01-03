@@ -16,7 +16,7 @@ module "github_repository" {
 
 module "tls_private_key" {
   source = "github.com/Dennyyyyyyy/tf-hashicorp-tls-keys"
-  algorithm   = "RSA"
+  algorithm = "RSA"
   }
 
 module "kind_cluster" {
