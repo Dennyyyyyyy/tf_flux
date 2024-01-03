@@ -1,3 +1,3 @@
-GOOGLE_PROJECT = "your-gcp-project-id"
+GOOGLE_PROJECT = "k8s-k3s-405517"
 GOOGLE_REGION  = "us-central1-c"
 GKE_NUM_NODES  = 3
