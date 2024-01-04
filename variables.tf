@@ -1,5 +1,6 @@
 variable "GOOGLE_PROJECT" {
   type        = string
+  default     = "k8s-k3s-405517"
   description = "GCP project to use"
 }
 
@@ -21,7 +22,7 @@ variable "GITHUB_TOKEN" {
 
 variable "FLUX_GITHUB_REPO" {
   type        = string
-  default     = "flux-gitops"
+  default = "flux-gitops.git"
   description = "Flux GitOps repository"
 }
 
