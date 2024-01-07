@@ -40,8 +40,14 @@ terraform {
 }
 ```
 ```sh
+$ gsutil mb gs://dennyyyyyyy-secret
+Creating gs://dennyyyyyyy-secret/...
+
+$ gsutil ls gs://dennyyyyyyy-secret
+gs://dennyyyyyyy-secret/terraform/
+```
+```sh
 $ terraform init
-$ tf show | more
 ```
 check ns and flux-system pod
 ```sh
