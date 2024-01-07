@@ -1,3 +1,10 @@
+terraform {
+  backend "gcs" {
+    bucket = "dennyyyyyyy-secret"
+    prefix = "terraform/state"
+  }
+}
+
 module "github_repository" {
   source       = "github.com/dennyyyyyyy/tf-github-repository"
   github_owner = var.GITHUB_OWNER
