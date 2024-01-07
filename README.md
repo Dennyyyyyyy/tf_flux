@@ -34,8 +34,8 @@ add bucket
 ```hcl
 terraform {
   backend "gcs" {
-    bucket  = "tf-state-prod"
-    prefix  = "dennyyyyyyy-secret"
+    bucket = "dennyyyyyyy-secret"
+    prefix = "terraform/state"
   }
 }
 ```
